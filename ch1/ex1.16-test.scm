@@ -1,0 +1,10 @@
+(load "ex1.16.scm")
+
+(= (fast-expt 2 4) 16)
+(= (fast-expt 2 5) 32)
+(= (fast-expt 2 6) 64)
+(= (fast-expt 2 0) 1)
+(= (fast-expt 2 1) 2)
+(= (fast-expt 3 4) 81)
+(= (fast-expt 4 2) 16)
+(= (fast-expt 0 0) 1)
